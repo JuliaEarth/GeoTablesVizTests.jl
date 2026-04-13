@@ -1,3 +1,3 @@
-# GeoStatsVizTests
+# GeoTablesVizTests
 
-Visual tests for the GeoStats.jl framework.
+Visual tests for [GeoTables.jl](https://github.com/JuliaEarth/GeoTables.jl).
