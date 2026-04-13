@@ -1,6 +1,6 @@
-name = "GeoStatsVizTests"
+name = "GeoTablesVizTests"
 uuid = "5b37fad0-31e4-4893-a89e-50493f0a373d"
-authors = ["Elias Carvalho <eliascarvdev@gmail.com> and contributors"]
+authors = ["Júlio Hoffimann <julio.hoffimann@gmail.com>"]
 version = "1.0.0"
 
 [compat]
