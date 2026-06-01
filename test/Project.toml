@@ -18,4 +18,4 @@ GeoTables = {rev = "master", url = "https://github.com/JuliaEarth/GeoTables.jl.g
 Meshes = {rev = "master", url = "https://github.com/JuliaGeometry/Meshes.jl.git"}
 
 [compat]
-CairoMakie = "=0.15.8"
+CairoMakie = "=0.15.11"
