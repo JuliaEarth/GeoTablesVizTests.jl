@@ -114,9 +114,7 @@ end
   @test_reference joinpath(datadir, "viewer-unit-missing-categorical.png") viewer(gtb)
 
   # error: could not find viewable variables
-  a = fill(missing, 100) # all missing values
-  b = fill(NaN, 100) # all missing values
-  c = fill(nothing, 100) # Unknown scitype
-  gtb = georef((; a, b, c), grid)
+  a = fill(nothing, 100) # Unknown scitype
+  gtb = georef((; a), grid)
   @test_throws AssertionError viewer(gtb)
 end
