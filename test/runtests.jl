@@ -17,9 +17,6 @@ using TestItemRunner
   import CairoMakie as Mke
 
   datadir = joinpath(@__DIR__, "data")
-
-  cart(x...) = Point(x...)
-  latlon(x...) = Point(LatLon(x...))
 end
 
 @testitem "viewer" setup = [Setup] begin
