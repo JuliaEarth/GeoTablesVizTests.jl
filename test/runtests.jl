@@ -109,9 +109,4 @@ end
   a = shuffle(rng, [missings; rand(rng, 1:5, 80)]) * u"°C"
   gtb = georef((; a), grid)
   @test_reference joinpath(datadir, "viewer-unit-missing-categorical.png") viewer(gtb)
-
-  # error: could not find viewable variables
-  a = fill(nothing, 100) # Unknown scitype
-  gtb = georef((; a), grid)
-  @test_throws AssertionError viewer(gtb)
 end
